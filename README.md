@@ -42,9 +42,10 @@ To install required packages:
 
 `$ pip install -r requirements.txt`
 
-Example:
+Example -- Run in python 2.7 virtualenv:
 
-`$ python metermap.py corpora/dickens.txt corpora/the_wasteland.txt output.txt --neg --cycle=12`
+
+`$ python2 metermap.py corpora/dickens.txt corpora/the_wasteland.txt output.txt --neg --cycle=12`
 
 All options:
 
